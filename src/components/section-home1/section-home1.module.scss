@@ -1,0 +1,48 @@
+.section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #ff6100;
+  .containerSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 425px;
+    .ladoEsquerdo {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      margin-bottom: 140px;
+      .texto {
+        h1 {
+          color: white;
+          font-weight: 300;
+          font-size: 40px;
+        }
+      }
+      .imgSeta {
+        width: 70%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+    .ladoDireito {
+      height: 100%;
+      img {
+        height: 425px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

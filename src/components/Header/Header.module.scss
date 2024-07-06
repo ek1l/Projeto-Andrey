@@ -1,0 +1,74 @@
+.header {
+  width: 100%;
+  background: black;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  .containerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      .img {
+        width: 91px;
+        height: 63px;
+        object-fit: contain;
+      }
+      .rendaH1 {
+        color: white;
+        font-size: 20px;
+        .rendaSpan {
+          color: orange;
+          font-size: 13px;
+        }
+      }
+    }
+    .inputAndNavigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      .input {
+        padding: 10px;
+        width: 373px;
+        height: 37px;
+        border-radius: 30px;
+        background: white;
+        border: none;
+        outline: none;
+        color: black;
+      }
+      .nav {
+        .ul {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          .li {
+            a {
+              color: white;
+              font-size: 16px;
+              transition: 0.3s;
+              &:hover {
+                color: #ff6100;
+              }
+            }
+          }
+        }
+      }
+    }
+    .carrinhoIMG {
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+}
